@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="static/css/style.css">
+<link rel="stylesheet" href="static/css/iconfont.css">
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/touchslide.1.1.js"></script>
+<script src="static/js/index.js"></script>
+<title></title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+</head>
+
+<body>
+<div class="wrapper">
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">网站首页</a></li>
+        <li><a href="about.html">关于我们</a></li>       <!-- gongsijianjie -->
+        <li><a href="product.html">产品中心</a></li>     <!-- chanpinzhongxin  -->
+        <li><a href="news.html">新闻动态</a></li>        <!-- dianchibaike -->
+        <li><a href="cases.html" class="current">成功案例</a></li>        <!-- anlizhongxin -->
+        <li><a href="message.html">在线留言</a></li>     <!-- fuwuchengnuo -->
+        <li><a href="contact.html">联系我们</a></li>     <!-- lianxifangshi -->
+   </ul>
+    <div class="floatmask"></div>
+</nav>
+<header class="header">
+    <div class="headMain">
+        <h1 class="logo">
+        <a href="index.html">
+            <img src="static/picture/logo.png" alt="河北鑫动力新能源科技有限公司" title="河北鑫动力新能源科技有限公司" >
+        </a>
+        </h1>
+        <span class="navMenu_icon iconfont"></span>
+    </div>
+</header>
+
+<div class="mainBox">
+    <!-- banner图 -->
+    <div id="focus" class="banner">
+        <div class="bd">
+            <ul>
+                <li><a href=""><img src="static/picture/banner1.jpg" alt="banner1"/></a></li>
+                <li><a href=""><img src="static/picture/banner2.jpg" alt="banner2"/></a></li>
+            </ul>
+        </div>
+        <div class="hd"><ul></ul></div>
+    </div>
+<script type="text/javascript">
+  TouchSlide({
+    slideCell:"#focus",
+    titCell:".hd ul",
+    mainCell:".bd ul",
+    effect:"leftLoop",
+    autoPlay:true,//自动播放
+    autoPage:true, //自动分页
+  });
+</script>
+	<div class="breadCrumb">
+        <p> <a href="index.html">首页</a> / <a class="bc" href="cases.html">定制案列</a></p>
+        <a href="javascript:;" id="catlist"><span class="fenlei">分类</span></a>
+    </div>
+<script>
+    var d = document,
+            dw = d.documentElement.clientWidth,
+            dh = d.documentElement.clientHeight;
+    d.addEventListener("DOMContentLoaded", function(){
+        var catalog = d.querySelector(".catalog");
+        catalog.style.height = d.body.scrollHeight+"px";
+        catalog.style.webkitTransform = "translateX("+dw+"px)";
+        catalog.getElementsByTagName("ul")[0].style.height = d.body.scrollHeight+"px";
+        //catalog.webkitTransform = "translateX("+dw+"px)";
+        d.querySelector(".catbtn").addEventListener("click", function(){
+            catalog.style.webkitTransform = "translateX("+dw+"px)";
+            setTimeout(function(){
+                catalog.style.display = "none";
+            },200);
+        });
+        d.querySelector("#catlist").addEventListener("click", function(){
+            catalog.style.display = "block";
+            catalog.style.webkitTransform = "translateX(0px)";
+        });
+    });
+</script>
+<div class="catalog">
+    <ul>
+        <li><a href="javascript:;" style="color:#0756b7;font-weight:bold;">定制锂电池案例 </a></li>
+        <li><a href="cases.html">工业锂电池案例</a></li>
+        <li><a href="cases.html.html">特种锂电池案例</a></li>
+        <li><a href="cases.html">电动车锂电池案例</a></li>
+    </ul>
+    <span class="catbtn"><img src="static/picture/icon_slid.png" width="30" alt="右" /></span>
+</div>
+	<div class="listWrapper">
+		<div class="listPic proList">
+		    <ul>
+			<li>
+                <a href="casea.html">
+                    <img src="static/picture/product1.jpg" alt="物流检测AGV/RGV小车锂电池" />
+                    <span>物流检测AGV/RGV小车锂电池</span>
+                </a>
+            </li>
+            <li>
+                <a href="casea.html">
+                    <img src="static/picture/product2.jpg" alt="超声波流量计锂电池组应用方案" />
+                    <span>超声波流量计锂电池组应用方案</span>
+                </a>
+            </li>
+            <li>
+                <a href="casea.html">
+                    <img src="static/picture/product3.jpg" alt="48V,6Ah 消防水泵动力锂电池组" />
+                    <span>48V,6Ah 消防水泵动力锂电池组</span>
+                </a>
+            </li>
+            <li>
+                <a href="casea.html">
+                    <img src="static/picture/product4.jpg" alt="智能机器人锂电池" />
+                    <span>智能机器人锂电池</span>
+                </a>
+            </li>
+            <li>
+                <a href="casea.html">
+                    <img src="static/picture/product5.jpg" alt="光纤熔接机备用电池设计方案" />
+                    <span>光纤熔接机备用电池设计方案</span>
+                </a>
+            </li>
+            <li>
+                <a href="casea.html">
+                    <img src="static/picture/product6.jpg" alt="便携应急电源电池" />
+                    <span>便携应急电源电池</span>
+                </a>
+            </li>
+        </ul>
+		</div>
+		<div class="page"><a class="previous_page" href="/anlizhongxin.html">上一页</a><span class="cur_page">1</span><a href="/anlizhongxin-3-2.html">2</a><a class="next_page" href="/anlizhongxin-3-2.html">下一页</a></div>
+	</div>
+	<script type="text/javascript" src="static/js/jquery.masonry.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	    var $container = $('.listPic');
+	    $container.imagesLoaded(function(){
+	        $container.masonry({
+	            itemSelector: 'li',
+	            gutterWidth :0,
+			 isAnimated: true,
+	        });
+	    });
+	});
+	</script>
+
+<!-- 底部 -->
+<footer class="footer">
+    <div class="backtop">Top<i class="icon iconfont">&#xe622;</i></div>
+    <div class="footCopy">
+        © 2020 河北鑫动力新能源科技有限公司 版权所有<br/>
+    </div>
+</footer>
+
+<section class="footMenu">
+    <ul>
+        <li>
+            <a href="index.html">
+            <i class="iconfont icon-icon_huabanfuben"></i>
+            <span>首页</span>
+            </a>
+        </li>
+        <li>
+            <a href="tel:18607557205">
+                <i class="iconfont icon-dianhua"></i>
+                <span>电话咨询</span>
+            </a>
+        </li>
+        <li>
+            <a onclick="dkcf()" title="微信">
+                <s class="iconfont icon-weixin" style="font-size: 38px; text-decoration: none;"></s>
+                <span>微信</span>
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                <i class="iconfont icon-lianxiwomendibiao"></i>
+                <span>联系我们</span>
+            </a>
+        </li>
+    </ul>
+</section>
+<div id="wxnr">
+     <div class="nrdf">
+        <i onclick="gbcf()">X</i>
+        <img src="static/picture/c5b40ce757b98ab90b6f90d66ce139c1.jpg" alt="微信二维码"/>
+        <p>截屏，微信识别二维码</p>
+        <p>微信号：<span id="btn" data-clipboard-text="19931332999">19931332999</span></p>
+        <p>（点击微信号复制，添加好友）</p>
+        <p><a href="weixin://"><span class="wx">&nbsp;&nbsp;打开微信</span></a></p>
+     </div>
+</div>
+    <script type="text/javascript" src="static/js/app1.js"></script>
+    </div><!-- mainBox -->
+</div><!-- wrapper -->
+</body>
+</html>
