@@ -173,11 +173,11 @@ height: 5rem;
 /* 底部 */
 .footer .backtop{height:1.2rem;line-height:1.2rem;background:#0756b7;color:#fff;padding-right:3%;text-align:right;font-size:0.7rem;text-transform: uppercase;}
 .footCopy{text-align:center;padding:10px 0 15px 0;font-size:0.7rem;line-height:1.2rem;}
-.footMenu{height:2.7rem;position:fixed;bottom:0;z-index:10;width:100%;text-align:center;background-color:#0756b7;display:table;max-width:640px;margin:0 auto;}
+.footMenu{height:3.5rem;position:fixed;bottom:0;z-index:10;width:100%;text-align:center;background-color:#0756b7;display:table;max-width:640px;margin:0 auto;}
 .footMenu ul{overflow:hidden;color:#fff;padding-top:;display:table-cell;vertical-align:middle;}
 .footMenu li{float:left;width:25%;text-align:center;font-size:0.6rem;vertical-align:middle;line-height:1rem;padding-top:.1rem;}
 .footMenu li a{color:#fff;}
-.footMenu li i{font-size:1.1rem;}
+.footMenu li i{margin-top: 2rem;}
 .footMenu li span{display:block;}
 
 /* 搜索 */
@@ -311,12 +311,12 @@ height: 5rem;
   top: 50%;
   left: 0;
   right: 0;
-  width: 11rem;
-  height: 12rem;
+  width: 15rem;
+  height: 16rem;
   padding: 0.3rem;
   padding-top: 1.6rem;
   /*margin-bottom: 5.5rem;*/
-  margin-top: -5.5rem;
+  margin-top: -9.5rem;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 2px 6px #777;
@@ -327,24 +327,24 @@ height: 5rem;
   height: 421px;*/
 }
 #wxnr img {
-  width: 6.3rem;
-  height: 6.3rem;
+  width: 8.3rem;
+  height: 8.3rem;
   display: block;
   margin: 0 auto;
 }
 #wxnr p {
-  font-size: 0.4rem;
-  line-height: 0.6rem;
+  font-size: 0.7rem;
+  line-height: 1rem;
   text-align: center;
 }
 #wxnr i {
   position: absolute;
   top: 0.2rem;
   right: 0.2rem;
-  width: 1rem;
-  height: 0.6rem;
+  width: 1.4rem;
+  height: 0.8rem;
   font-size: 0.4rem;
-  line-height: 0.6rem;
+  line-height: 0.8rem;
   text-align: center;
   color: #fff;
   font-weight: bold;
