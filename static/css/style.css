@@ -388,21 +388,21 @@ height: 8rem;
 }
 .listWrapper .img-box {
      border:1px solid #9A948E;
-     width:13.75rem;
+     width:11.75rem;
      height:15.25rem;
      background:#fff;
      position:fixed;
-     left:50%;
-     top:50%;
+     left:53%;
+     top:45%;
      margin-left:-7.25rem;
      margin-top:-7.5rem;
      overflow:hidden;
 }
 .listWrapper #img {
-     width:13.75rem;
+     width:11.75rem;
      height:15.25rem;
      min-height:15.25rem;
-     min-width:13.75rem;
+     min-width:11.75rem;
      position:absolute;
 }
 .listWrapper .close {
@@ -412,7 +412,7 @@ height: 8rem;
      display:block;
      height:1rem;
      width:1rem;
-     line-height:1rem;
+     line-height:0.9rem;
      text-align:center;
      border:3px solid #fff;
      border-radius:50%;
